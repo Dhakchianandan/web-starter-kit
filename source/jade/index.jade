@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Gulp is Awesome!!
+        link(href="css/style.css", rel="stylesheet")
+    body
+        include 1-layout/_header
+        include 2-mixins/_mixins
+        p Thanks for making me awesome guys
+        ul
+            +contribution("gulp-jade")
+            +contribution("gulp-sass")
+            +contribution("gulp-autoprefixer")
+            +contribution("browser-sync")
+        include 1-layout/_footer
